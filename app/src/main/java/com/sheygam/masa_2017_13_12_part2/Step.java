@@ -1,10 +1,12 @@
 package com.sheygam.masa_2017_13_12_part2;
 
+import java.io.Serializable;
+
 /**
  * Created by gregorysheygam on 13/12/2017.
  */
 
-public class Step {
+public class Step implements Serializable{
     private int numberOfStep;
     private String title;
     private String description;
